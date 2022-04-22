@@ -3,6 +3,11 @@ const aWord = prompt('Digita una parola e ti dirò se è palindroma :)');
 console.log(aWord);
 
 // Creare una funzione per capire se la parola inserita è palindroma
+/**
+ * Description // Check if word is palindrome
+ * @param {String} userWord // Word to check
+ * @returns {Boolean} // Result: word checked: true or false
+ */
 function isWordPalindrome(userWord) {
     userWord = aWord.toLowerCase();
     let j = Math.ceil(userWord.length / 2);
